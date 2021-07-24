@@ -1,0 +1,22 @@
+.home {
+  @include flexContent(column, center);
+  &__content {
+    @include flexContent(column, center);
+    p {
+      padding: 25px;
+      font-family: $textFont;
+      color: rgb(90, 90, 90);
+      font-size: 17px;
+      line-height: 1.5rem;
+    }
+    img {
+      background-color: rgba(0, 0, 0, 0.4);
+      background-blend-mode: overlay;
+      border-radius: 50%;
+      margin: 15px;
+    }
+    button {
+      @extend %button;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@mixin flexContent($direction, $content) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: $content;
+}
+@mixin buttonCss($bgColor, $color, $fontSize, $width, $height) {
+  background-color: $bgColor;
+  font-size: $fontSize;
+  color: $color;
+  width: $width;
+  height: $height;
+  border-radius: 5px;
+}

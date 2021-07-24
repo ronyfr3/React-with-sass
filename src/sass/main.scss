@@ -1,0 +1,13 @@
+// orders must be maintaned else it'll throw undefined error status in sass compiler
+
+//abstract sass
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./abstracts/extend";
+
+//base sass
+@import "./base/base";
+
+//component sass
+@import "./component/header";
+@import "./component/home";

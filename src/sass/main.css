@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.home__content button {
+  border: none;
+  outline: none;
+  background-color: maroon;
+  font-size: 17px;
+  color: white;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 30px 0 100px 0;
+  border-radius: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 65px;
+}
+
+.header header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header header a {
+  background-color: white;
+  font-size: 14px;
+  color: #15b906;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 15px;
+  text-align: center;
+  padding: 5px 0 0 0;
+  font-weight: 600;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home__content p {
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5a5a5a;
+  font-size: 17px;
+  line-height: 1.5rem;
+}
+
+.home__content img {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  border-radius: 50%;
+  margin: 15px;
+}
+/*# sourceMappingURL=main.css.map */
